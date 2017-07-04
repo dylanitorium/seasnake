@@ -1,6 +1,6 @@
 {
   "name": "seasnake",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Docker volume imports and exports",
   "main": "lib/index.js",
   "scripts": {
