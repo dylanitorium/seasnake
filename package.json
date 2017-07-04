@@ -10,6 +10,13 @@
     "type": "git",
     "url": "git@github.com:dylanitorium/seasnake.git"
   },
+  "keywords": [
+    "docker",
+    "import",
+    "export",
+    "volumes",
+    "volume"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
