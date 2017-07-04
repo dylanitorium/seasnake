@@ -41,7 +41,7 @@ export default class Seasnake {
         --volume ${this.volumeName}:/${this.volumeName} \\
         --volume $(pwd):/tmp \\
         ubuntu \\
-        tar cvf /tmp/${name}.tar /${this.volumeName}`
+        tar cvf /tmp/${name} /${this.volumeName}`
     );
   }
 
@@ -57,7 +57,7 @@ export default class Seasnake {
         --volume ${this.volumeName}:/${this.volumeName} \\
         --volume $(pwd):/tmp \\
         ubuntu \\
-        tar xvf /tmp/${name}.tar -C /${this.volumeName} --strip 1`
+        tar xvf /tmp/${name} -C /${this.volumeName} --strip 1`
     );
   }
 }
